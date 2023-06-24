@@ -1,7 +1,17 @@
 [package]
 name = "logshark"
 version = "0.1.0"
+authors = ["logback Contributors <farmerx@163.com>"]
 edition = "2021"
+description = "A lightweight and ultra-fast tool for building observability pipelines"
+homepage = ""
+license = "MPL-2.0"
+readme = "README.md"
+publish = false
+default-run = "logshark"
+autobenches = false # our benchmarks are not runnable on their own either way
+# Minimum supported rust version
+rust-version = "1.66.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
